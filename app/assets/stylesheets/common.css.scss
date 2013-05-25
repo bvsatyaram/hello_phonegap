@@ -1,0 +1,38 @@
+body {
+  background-color: #FFFFFF;
+  width: 100%;
+
+  section {
+    background-color: #0D6ECE;
+    color: #FFFFFF;
+    margin: 30px auto;
+    padding: 30px;
+    text-align: center;
+    width: 80%;
+    @include border-radius(8px);
+
+    h1 {
+      font-size: 2.5em;
+      font-weight: bold;
+    }
+
+    a#counter_trigger {
+      display: block;
+      font-size: 2em;
+      margin: 0 auto;
+      padding: 10px 20px;
+      text-align: center;
+      width: 10em;
+    }
+
+    #counter {
+      background-color: #FFFFFF;
+      color: #000000;
+      display: inline-block;
+      font-size: 1.5em;
+      font-weight: bold;
+      width: 8em;
+      @include border-radius(5px);
+    }
+  }
+}
